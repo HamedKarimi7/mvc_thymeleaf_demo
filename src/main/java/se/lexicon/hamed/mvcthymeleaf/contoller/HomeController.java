@@ -1,4 +1,4 @@
-package se.lexicon.hamed.mvcthymeleaf;
+package se.lexicon.hamed.mvcthymeleaf.contoller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,9 +26,4 @@ public class HomeController {
         return ("index");
     }
 
-    @GetMapping("/dashboard")
-    public String dashboard(){
-        System.out.println("#### index method has been executed! #####");
-        return ("dashboard");
-    }
 }
