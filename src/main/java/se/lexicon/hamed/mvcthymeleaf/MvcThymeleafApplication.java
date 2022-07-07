@@ -1,13 +1,13 @@
-package se.lexicon.hamed.mvc_thymeleaf_demo;
+package se.lexicon.hamed.mvcthymeleaf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MvcThymeleafDemoApplication {
+public class MvcThymeleafApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MvcThymeleafDemoApplication.class, args);
+        SpringApplication.run(MvcThymeleafApplication.class, args);
     }
 
 }

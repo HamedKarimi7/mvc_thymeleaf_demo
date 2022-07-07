@@ -1,4 +1,4 @@
-package se.lexicon.hamed.mvc_thymeleaf_demo;
+package se.lexicon.hamed.mvcthymeleaf;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
